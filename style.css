@@ -32,6 +32,12 @@ nav a {
   margin: 0 1rem;
   font-weight: bold;
 }
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  margin: 0 1rem;
+  font-weight: bold;
+}
 .switch {
   position: relative;
   display: inline-block;
@@ -92,12 +98,21 @@ input:checked + .slider:before {
   gap: 1rem;
 }
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   background: var(--card-bg);
   padding: 1rem;
   border-radius: 8px;
   text-align: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
+
+.project-card a {
+  padding: 10px;
+}
+
 .project-card img {
   width: 100%;
   border-radius: 8px;
