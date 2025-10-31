@@ -96,6 +96,7 @@ input:checked + .slider:before {
   padding: 1rem;
   border-radius: 8px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
 .project-card img {
   width: 100%;
@@ -135,4 +136,10 @@ footer {
   text-decoration: none;
   margin: 0 0.5rem;
   font-size: 1.2rem;
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
